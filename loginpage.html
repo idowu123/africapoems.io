@@ -1,0 +1,183 @@
+<html>
+    <heading>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
+
+        <title>Poems</title>
+    </heading>
+    <body>
+        <style>
+            a {
+                color:white;
+            }
+            body{
+                background-image: url("cp.jpg");
+                background-repeat: no-repeat;
+                background-position:fill;
+                background-size :cover;
+                width: 700Px;
+                height: 250px;
+                background-colo:rgb(255, 0, 128);
+                backdrop-filter: blur(8px);
+            }
+            .form-box{
+                text-align:center;
+                border-radius:42px;
+                background-image:url(trainer-bg.jpg);
+                margin-left:250px;
+                box-shadow:12px 7px 10px rgba(188, 219, 10, 0.897);
+                width:300px;
+                height: 630px;
+                box-sizing:20px;
+                box-shadow: 0 0 40px 15px #3234b385;
+                color:white;
+                border-width: 12px;
+                
+            }
+    
+            .form-box input{
+                width:50%;
+                height:18;
+                background-color:white;
+                margin-bottom:15px;
+                margin-top:-15px;
+                padding:15px;
+                border-radius:5px;
+            }
+
+            .title-box{
+                text-align:center;
+                margin-top:30px;
+                margin-bottom:30px;
+                padding-left: 6px;
+                padding-inline: ;
+                justify-items: center;
+                font-weight:400;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .create-btn{
+                text-align:center;
+                padding:50px;
+                justify-content:center;
+                padding-top:20;
+            }
+            .sign-up-button{
+                background-color: rgb(79, 79, 214);
+                text-transform:#f0e7e7
+                border-radius:7px;
+            }
+            .forgotten-password-button{
+                background-color:rgb(181, 181, 185);
+                size: 20px;
+                color:#f0e7e7;
+                font:#f0e7e7;
+                border-radius:5px;
+                active:white;
+            }
+            .social-twitter{
+                background: #3b5998;
+                color: #FFFFFF;
+                margin-bottom:40;
+                padding: ;
+                border-radius:80px;
+                display: inline-block;
+                box-shadow: 0 3px 6px 1px #042d4657;
+                width: 40%;
+                height: 5%;
+                font-size: 12px;
+                padding-top: 5;
+                
+            }
+                .social-twitter: a-link{
+                color: #FFFFFF;
+                margin-bottom:40;
+                font-size: 16px; 
+            }
+            .social-twitter:hover{
+                color: #d8dbbc;
+                margin-bottom:40;
+                font-size: 14px;
+                }
+            .social-facebook{
+                background-color:#3b5998;
+                color: #FFFFFF;
+                margin-bottom:40;
+                padding: ;
+                border-radius:80px;
+                display: inline-block;
+                box-shadow: 0 3px 6px 1px #042d4657;
+                width: 40%;
+                height: 5%;
+                font-size: 12px;
+                padding-top:5;
+            }
+            .social-facebook : a-link{
+                color: #FFFFFF;
+                margin-bottom:40;
+                font-size: 16px; 
+            }
+            .social-facebook :hover{
+                color: #dbe0cf;
+                margin-bottom:40;
+                font-size: 14px;
+            }
+           .image{
+                    margin-left:60%;
+           }
+           .black-button{
+            background-color: #0c0101;
+            width:60% ;
+            height:5%;
+            border-radius:15px ;
+            margin-left:20% ;
+           }
+           h1{
+            padding-top:1%;
+           }
+        </style>
+        <script>
+            cont resultsList = document.getElementById('results')
+            new URLsearchParms(window.location.search).forEach((value), name) => {
+                resultsList.append('${name}: ${value}')
+                resultsList.append(document.createElement('br'))
+                var email = ("email");
+                var password = ("password");
+                if ("if password & email = login"){
+                    homepage.html=homepage.html
+                };
+            };
+        </script>
+        <div class="form-box">
+           <div class="black-button">
+            <button></button>
+           </div>
+
+                <div class="image">
+                 <img src="readpng.png" width=50 height=60>
+                </div>
+               <center><h1>WELCOME!</h1></center>
+                <p><b>Check The Collections of Poems and<br> Novels by Popular Poet and Novelist </b></p>
+            <form action="homepage.html" method="GET">  
+              <input type = "email" placeholder="Email" id="email" required><br> <br>
+              <input type = "password" id="password" placeholder="password" required><br> <br> 
+              <button type = "submit button"><a href="homepage.html">Login</a></button><br> <br>
+              <button type="reset">Reset</button>
+             <button class="forgotten-password-button"><a href="Forgotten password"?>Forgetten Password</a></button>    
+             </form>
+            <div class="create-btn">
+             <button class="sing-up-button"><a href="signup.html">Sign Up</a></button>
+            </div>
+               <p><b>login with social media</b></p>
+               <div class="social-facebook">
+			      <a href="facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i>Login with Facebook</a>
+               </div>
+               <div class="social-twitter">
+			     <a href="Twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i> Login with Twitter</a> 
+                </div> 
+                <p> Develop by <br> Solomon Idowu Michael (c) 2025</p>
+            </div>
+        </div>
+    </body>
+</html>
